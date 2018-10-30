@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+}
+#app ul li.el-menu-item:hover{
+    color: #ffd04b!important;
+}
+#app ul li.el-menu-item{
+    float: right;
+}
+
+div.el-dialog__wrapper div.el-dialog.is-fullscreen div.el-dialog__header .el-dialog__title{
+    color: rgb(255, 208, 75);
+}
+div.el-dialog__wrapper div.el-dialog.is-fullscreen div.el-dialog__header{
+    background-color: rgb(84, 92, 100);
+}
+
+div.el-card .el-card__body{
+    padding: 10px;
+}
+div.el-card .el-card__body .desc{
+    font-size: 12px;
+    color: #555;
+}
+div.el-card .el-card__header{
+    padding: 10px;
+}
+div.el-card .el-card__header span.title{
+    font-size: 18px;
+    color: #333;
+}
+div.el-card .el-card__header{
+    border-bottom: none;
+}
+div.el-card:hover{
+    /*border: 1px solid #333;*/
+    background-color: rgba(204, 204, 204, 0.10);
+    transition: all .2s ease-out;
+}
+div.el-card{
+    margin-bottom: 5px;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+button.taggy-link-actions:hover{
+    background-color: #409EFF;
+    transition: all .5s ease-out;
+    color: #fff;
+}
+button.taggy-link-actions{
+    float: right;
+    padding: 3px;
+    transition: all .2s ease-in;
+    background-color: beige;
+    border-radius: 20px;
+}
